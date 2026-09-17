@@ -1,15 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.services)
+    alias(libs.plugins.navigation.safeargs)
 }
 
 android {
-    namespace = "com.example.gamedayschedular"
+    namespace = "com.sports.gamedayschedular"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.gamedayschedular"
+        applicationId = "com.sports.gamedayschedular"
         minSdk = 27
         targetSdk = 37
         versionCode = 1
@@ -35,6 +37,13 @@ android {
 }
 
 dependencies {
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.firestore)
+    implementation(libs.kotlinx.coroutines.play.services)
+    implementation(libs.escpos.printer)
+    implementation(libs.coil)
+
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)

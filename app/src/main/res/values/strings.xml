@@ -1,5 +1,16 @@
 <resources>
-    <string name="app_name">Game Day schedular</string>
+    <string name="app_name">Referee Schedule GDS</string>
+    <string name="legend_all_staffed">All staffed</string>
+    <string name="legend_missing_ar">Missing Asst Ref</string>
+    <string name="legend_missing_hr">Missing Head Ref</string>
+    <string name="legend_in_progress_covered">In progress (covered)</string>
+    <string name="legend_in_progress_need_asst">In progress (need Asst)</string>
+    <string name="legend_in_progress_need_head">In progress (need Head)</string>
+    <string name="printer_sync_code">PRINTER SYNC CODE</string>
+    <string name="printer_sync_hint">Enter this code in your Referee App to print</string>
+    <string name="assign_hr">Assign Head Ref</string>
+    <string name="assign_ar">Assign Assistant Ref</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
